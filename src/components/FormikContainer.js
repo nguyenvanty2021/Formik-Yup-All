@@ -87,6 +87,7 @@ const FormikContainer = () => {
     console.log(JSON.parse(JSON.stringify(values.datePicker)));
   };
   return (
+   
     <Formik
       onSubmit={onSubmit}
       initialValues={initialValues}
@@ -175,6 +176,7 @@ const FormikContainer = () => {
         );
       }}
     </Formik>
-  );
+ 
+ );
 };
 export default FormikContainer;

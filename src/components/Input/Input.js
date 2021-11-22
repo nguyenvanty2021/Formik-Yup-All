@@ -1,5 +1,5 @@
 import { Input as InputMain } from "antd";
-import { ErrorMessage, FastField, Field } from "formik";
+import { ErrorMessage, FastField } from "formik";
 import TextErrors from "../TextErrors/TextErrors";
 
 const Input = (props) => {

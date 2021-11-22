@@ -1,5 +1,5 @@
 import { Checkbox as CheckboxMain } from "antd";
-import { ErrorMessage, FastField, Field } from "formik";
+import { ErrorMessage, FastField } from "formik";
 import React from "react";
 import TextErrors from "../TextErrors/TextErrors";
 
@@ -11,7 +11,7 @@ const Checkbox = (props) => {
         {({ field }) => {
           return options.map((option, index) => {
             return (
-              <React.Fragment key={index}>
+              <React.Fragment  key={index}>
                 <CheckboxMain
           
                   // type="checkbox"

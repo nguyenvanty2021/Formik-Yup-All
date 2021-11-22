@@ -1,9 +1,7 @@
-import { ErrorMessage, FastField, Field } from "formik";
+import { ErrorMessage, FastField } from "formik";
 import TextErrors from "../TextErrors/TextErrors";
-import { Select } from "antd";
 const Select1 = (props) => {
   const { label, options, name, ...rest } = props;
-  const { Option } = Select;
   console.log(options);
   return (
     <div>

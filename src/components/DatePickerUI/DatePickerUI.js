@@ -1,9 +1,7 @@
 import { ErrorMessage, FastField } from "formik";
 import { DatePicker } from "antd";
 import TextErrors from "../TextErrors/TextErrors";
-import moment from "moment";
 const DatePickerUI = (props) => {
-  const { RangePicker } = DatePicker;
   const { label, name, ...rest } = props;
   return (
     <div>
